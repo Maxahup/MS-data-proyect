@@ -21,7 +21,7 @@ spring:
           uri: lb://MS-Autorizacion
           predicates:
             - Path=/autorizacion/**
-        - id: MS-Marcas
-          uri: lb://MS-Marcas
+        - id: ms-marcas
+          uri: lb://ms-marcas
           predicates:
             - Path=/marcas/**
