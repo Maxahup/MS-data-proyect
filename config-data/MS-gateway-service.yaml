@@ -24,4 +24,4 @@ spring:
         - id: MS-Marcas_Reloj
           uri: lb://MS-Marcas_Reloj
           predicates:
-            - Path=/marca-reloj/**
+            - Path=/marcas-reloj/**
